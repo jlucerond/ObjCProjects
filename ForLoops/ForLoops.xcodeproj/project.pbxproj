@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D888F7201926A5FC003E516E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D888F71F1926A5FC003E516E /* Foundation.framework */; };
+		D888F7221926A5FC003E516E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D888F7211926A5FC003E516E /* CoreGraphics.framework */; };
+		D888F7241926A5FC003E516E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D888F7231926A5FC003E516E /* UIKit.framework */; };
+		D888F72A1926A5FC003E516E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D888F7281926A5FC003E516E /* InfoPlist.strings */; };
+		D888F72C1926A5FC003E516E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D888F72B1926A5FC003E516E /* main.m */; };
+		D888F7301926A5FC003E516E /* JLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D888F72F1926A5FC003E516E /* JLAppDelegate.m */; };
+		D888F7331926A5FC003E516E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D888F7311926A5FC003E516E /* Main.storyboard */; };
+		D888F7361926A5FC003E516E /* JLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D888F7351926A5FC003E516E /* JLViewController.m */; };
+		D888F7381926A5FC003E516E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D888F7371926A5FC003E516E /* Images.xcassets */; };
+		D888F73F1926A5FC003E516E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D888F73E1926A5FC003E516E /* XCTest.framework */; };
+		D888F7401926A5FC003E516E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D888F71F1926A5FC003E516E /* Foundation.framework */; };
+		D888F7411926A5FC003E516E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D888F7231926A5FC003E516E /* UIKit.framework */; };
+		D888F7491926A5FC003E516E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D888F7471926A5FC003E516E /* InfoPlist.strings */; };
+		D888F74B1926A5FC003E516E /* ForLoopsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D888F74A1926A5FC003E516E /* ForLoopsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D888F7421926A5FC003E516E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D888F7141926A5FC003E516E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D888F71B1926A5FC003E516E;
+			remoteInfo = ForLoops;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D888F71C1926A5FC003E516E /* ForLoops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForLoops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D888F71F1926A5FC003E516E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D888F7211926A5FC003E516E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D888F7231926A5FC003E516E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D888F7271926A5FC003E516E /* ForLoops-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForLoops-Info.plist"; sourceTree = "<group>"; };
+		D888F7291926A5FC003E516E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D888F72B1926A5FC003E516E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D888F72D1926A5FC003E516E /* ForLoops-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ForLoops-Prefix.pch"; sourceTree = "<group>"; };
+		D888F72E1926A5FC003E516E /* JLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLAppDelegate.h; sourceTree = "<group>"; };
+		D888F72F1926A5FC003E516E /* JLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLAppDelegate.m; sourceTree = "<group>"; };
+		D888F7321926A5FC003E516E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D888F7341926A5FC003E516E /* JLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLViewController.h; sourceTree = "<group>"; };
+		D888F7351926A5FC003E516E /* JLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLViewController.m; sourceTree = "<group>"; };
+		D888F7371926A5FC003E516E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D888F73D1926A5FC003E516E /* ForLoopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForLoopsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D888F73E1926A5FC003E516E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D888F7461926A5FC003E516E /* ForLoopsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForLoopsTests-Info.plist"; sourceTree = "<group>"; };
+		D888F7481926A5FC003E516E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D888F74A1926A5FC003E516E /* ForLoopsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForLoopsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D888F7191926A5FC003E516E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D888F7221926A5FC003E516E /* CoreGraphics.framework in Frameworks */,
+				D888F7241926A5FC003E516E /* UIKit.framework in Frameworks */,
+				D888F7201926A5FC003E516E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D888F73A1926A5FC003E516E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D888F73F1926A5FC003E516E /* XCTest.framework in Frameworks */,
+				D888F7411926A5FC003E516E /* UIKit.framework in Frameworks */,
+				D888F7401926A5FC003E516E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D888F7131926A5FC003E516E = {
+			isa = PBXGroup;
+			children = (
+				D888F7251926A5FC003E516E /* ForLoops */,
+				D888F7441926A5FC003E516E /* ForLoopsTests */,
+				D888F71E1926A5FC003E516E /* Frameworks */,
+				D888F71D1926A5FC003E516E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D888F71D1926A5FC003E516E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D888F71C1926A5FC003E516E /* ForLoops.app */,
+				D888F73D1926A5FC003E516E /* ForLoopsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D888F71E1926A5FC003E516E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D888F71F1926A5FC003E516E /* Foundation.framework */,
+				D888F7211926A5FC003E516E /* CoreGraphics.framework */,
+				D888F7231926A5FC003E516E /* UIKit.framework */,
+				D888F73E1926A5FC003E516E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D888F7251926A5FC003E516E /* ForLoops */ = {
+			isa = PBXGroup;
+			children = (
+				D888F72E1926A5FC003E516E /* JLAppDelegate.h */,
+				D888F72F1926A5FC003E516E /* JLAppDelegate.m */,
+				D888F7311926A5FC003E516E /* Main.storyboard */,
+				D888F7341926A5FC003E516E /* JLViewController.h */,
+				D888F7351926A5FC003E516E /* JLViewController.m */,
+				D888F7371926A5FC003E516E /* Images.xcassets */,
+				D888F7261926A5FC003E516E /* Supporting Files */,
+			);
+			path = ForLoops;
+			sourceTree = "<group>";
+		};
+		D888F7261926A5FC003E516E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D888F7271926A5FC003E516E /* ForLoops-Info.plist */,
+				D888F7281926A5FC003E516E /* InfoPlist.strings */,
+				D888F72B1926A5FC003E516E /* main.m */,
+				D888F72D1926A5FC003E516E /* ForLoops-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D888F7441926A5FC003E516E /* ForLoopsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D888F74A1926A5FC003E516E /* ForLoopsTests.m */,
+				D888F7451926A5FC003E516E /* Supporting Files */,
+			);
+			path = ForLoopsTests;
+			sourceTree = "<group>";
+		};
+		D888F7451926A5FC003E516E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D888F7461926A5FC003E516E /* ForLoopsTests-Info.plist */,
+				D888F7471926A5FC003E516E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D888F71B1926A5FC003E516E /* ForLoops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D888F74E1926A5FC003E516E /* Build configuration list for PBXNativeTarget "ForLoops" */;
+			buildPhases = (
+				D888F7181926A5FC003E516E /* Sources */,
+				D888F7191926A5FC003E516E /* Frameworks */,
+				D888F71A1926A5FC003E516E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForLoops;
+			productName = ForLoops;
+			productReference = D888F71C1926A5FC003E516E /* ForLoops.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D888F73C1926A5FC003E516E /* ForLoopsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D888F7511926A5FC003E516E /* Build configuration list for PBXNativeTarget "ForLoopsTests" */;
+			buildPhases = (
+				D888F7391926A5FC003E516E /* Sources */,
+				D888F73A1926A5FC003E516E /* Frameworks */,
+				D888F73B1926A5FC003E516E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D888F7431926A5FC003E516E /* PBXTargetDependency */,
+			);
+			name = ForLoopsTests;
+			productName = ForLoopsTests;
+			productReference = D888F73D1926A5FC003E516E /* ForLoopsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D888F7141926A5FC003E516E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JL;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					D888F73C1926A5FC003E516E = {
+						TestTargetID = D888F71B1926A5FC003E516E;
+					};
+				};
+			};
+			buildConfigurationList = D888F7171926A5FC003E516E /* Build configuration list for PBXProject "ForLoops" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D888F7131926A5FC003E516E;
+			productRefGroup = D888F71D1926A5FC003E516E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D888F71B1926A5FC003E516E /* ForLoops */,
+				D888F73C1926A5FC003E516E /* ForLoopsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D888F71A1926A5FC003E516E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D888F7381926A5FC003E516E /* Images.xcassets in Resources */,
+				D888F72A1926A5FC003E516E /* InfoPlist.strings in Resources */,
+				D888F7331926A5FC003E516E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D888F73B1926A5FC003E516E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D888F7491926A5FC003E516E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D888F7181926A5FC003E516E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D888F7301926A5FC003E516E /* JLAppDelegate.m in Sources */,
+				D888F7361926A5FC003E516E /* JLViewController.m in Sources */,
+				D888F72C1926A5FC003E516E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D888F7391926A5FC003E516E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D888F74B1926A5FC003E516E /* ForLoopsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D888F7431926A5FC003E516E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D888F71B1926A5FC003E516E /* ForLoops */;
+			targetProxy = D888F7421926A5FC003E516E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D888F7281926A5FC003E516E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D888F7291926A5FC003E516E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D888F7311926A5FC003E516E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D888F7321926A5FC003E516E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D888F7471926A5FC003E516E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D888F7481926A5FC003E516E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D888F74C1926A5FC003E516E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D888F74D1926A5FC003E516E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D888F74F1926A5FC003E516E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForLoops/ForLoops-Prefix.pch";
+				INFOPLIST_FILE = "ForLoops/ForLoops-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D888F7501926A5FC003E516E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForLoops/ForLoops-Prefix.pch";
+				INFOPLIST_FILE = "ForLoops/ForLoops-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D888F7521926A5FC003E516E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ForLoops.app/ForLoops";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForLoops/ForLoops-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ForLoopsTests/ForLoopsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D888F7531926A5FC003E516E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ForLoops.app/ForLoops";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ForLoops/ForLoops-Prefix.pch";
+				INFOPLIST_FILE = "ForLoopsTests/ForLoopsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D888F7171926A5FC003E516E /* Build configuration list for PBXProject "ForLoops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D888F74C1926A5FC003E516E /* Debug */,
+				D888F74D1926A5FC003E516E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D888F74E1926A5FC003E516E /* Build configuration list for PBXNativeTarget "ForLoops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D888F74F1926A5FC003E516E /* Debug */,
+				D888F7501926A5FC003E516E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D888F7511926A5FC003E516E /* Build configuration list for PBXNativeTarget "ForLoopsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D888F7521926A5FC003E516E /* Debug */,
+				D888F7531926A5FC003E516E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D888F7141926A5FC003E516E /* Project object */;
+}

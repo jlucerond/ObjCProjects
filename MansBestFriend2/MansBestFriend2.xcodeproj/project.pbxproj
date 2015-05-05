@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D878B1EF19929F4C002F15CF /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D878B1EA19929F4C002F15CF /* Bo.jpg */; };
+		D878B1F019929F4C002F15CF /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D878B1EB19929F4C002F15CF /* BorderCollie.jpg */; };
+		D878B1F119929F4C002F15CF /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D878B1EC19929F4C002F15CF /* ItalianGreyhound.jpg */; };
+		D878B1F219929F4C002F15CF /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D878B1ED19929F4C002F15CF /* JRT.jpg */; };
+		D878B1F319929F4C002F15CF /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D878B1EE19929F4C002F15CF /* St.Bernard.JPG */; };
+		D8A52DEF1993CA21008AF48E /* JLPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A52DEE1993CA21008AF48E /* JLPuppy.m */; };
+		D8A6826F1991775C00BD15D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A6826E1991775C00BD15D2 /* Foundation.framework */; };
+		D8A682711991775C00BD15D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A682701991775C00BD15D2 /* CoreGraphics.framework */; };
+		D8A682731991775C00BD15D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A682721991775C00BD15D2 /* UIKit.framework */; };
+		D8A682791991775C00BD15D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8A682771991775C00BD15D2 /* InfoPlist.strings */; };
+		D8A6827B1991775C00BD15D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A6827A1991775C00BD15D2 /* main.m */; };
+		D8A6827F1991775C00BD15D2 /* JLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A6827E1991775C00BD15D2 /* JLAppDelegate.m */; };
+		D8A682821991775C00BD15D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A682801991775C00BD15D2 /* Main.storyboard */; };
+		D8A682851991775C00BD15D2 /* JLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A682841991775C00BD15D2 /* JLViewController.m */; };
+		D8A682871991775C00BD15D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8A682861991775C00BD15D2 /* Images.xcassets */; };
+		D8A6828E1991775C00BD15D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A6828D1991775C00BD15D2 /* XCTest.framework */; };
+		D8A6828F1991775C00BD15D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A6826E1991775C00BD15D2 /* Foundation.framework */; };
+		D8A682901991775C00BD15D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A682721991775C00BD15D2 /* UIKit.framework */; };
+		D8A682981991775C00BD15D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8A682961991775C00BD15D2 /* InfoPlist.strings */; };
+		D8A6829A1991775C00BD15D2 /* MansBestFriend2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A682991991775C00BD15D2 /* MansBestFriend2Tests.m */; };
+		D8A682A519917ABF00BD15D2 /* JLDog.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A682A419917ABF00BD15D2 /* JLDog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8A682911991775C00BD15D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8A682631991775C00BD15D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8A6826A1991775C00BD15D2;
+			remoteInfo = MansBestFriend2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D878B1EA19929F4C002F15CF /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		D878B1EB19929F4C002F15CF /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		D878B1EC19929F4C002F15CF /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		D878B1ED19929F4C002F15CF /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		D878B1EE19929F4C002F15CF /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
+		D8A52DED1993CA21008AF48E /* JLPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPuppy.h; sourceTree = SOURCE_ROOT; };
+		D8A52DEE1993CA21008AF48E /* JLPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPuppy.m; sourceTree = SOURCE_ROOT; };
+		D8A6826B1991775C00BD15D2 /* MansBestFriend2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MansBestFriend2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A6826E1991775C00BD15D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8A682701991775C00BD15D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8A682721991775C00BD15D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8A682761991775C00BD15D2 /* MansBestFriend2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MansBestFriend2-Info.plist"; sourceTree = "<group>"; };
+		D8A682781991775C00BD15D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8A6827A1991775C00BD15D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8A6827C1991775C00BD15D2 /* MansBestFriend2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MansBestFriend2-Prefix.pch"; sourceTree = "<group>"; };
+		D8A6827D1991775C00BD15D2 /* JLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLAppDelegate.h; sourceTree = "<group>"; };
+		D8A6827E1991775C00BD15D2 /* JLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLAppDelegate.m; sourceTree = "<group>"; };
+		D8A682811991775C00BD15D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8A682831991775C00BD15D2 /* JLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLViewController.h; sourceTree = "<group>"; };
+		D8A682841991775C00BD15D2 /* JLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLViewController.m; sourceTree = "<group>"; };
+		D8A682861991775C00BD15D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8A6828C1991775C00BD15D2 /* MansBestFriend2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MansBestFriend2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A6828D1991775C00BD15D2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D8A682951991775C00BD15D2 /* MansBestFriend2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MansBestFriend2Tests-Info.plist"; sourceTree = "<group>"; };
+		D8A682971991775C00BD15D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8A682991991775C00BD15D2 /* MansBestFriend2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MansBestFriend2Tests.m; sourceTree = "<group>"; };
+		D8A682A319917ABF00BD15D2 /* JLDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLDog.h; path = ../JLDog.h; sourceTree = "<group>"; };
+		D8A682A419917ABF00BD15D2 /* JLDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLDog.m; path = ../JLDog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8A682681991775C00BD15D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A682711991775C00BD15D2 /* CoreGraphics.framework in Frameworks */,
+				D8A682731991775C00BD15D2 /* UIKit.framework in Frameworks */,
+				D8A6826F1991775C00BD15D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A682891991775C00BD15D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A6828E1991775C00BD15D2 /* XCTest.framework in Frameworks */,
+				D8A682901991775C00BD15D2 /* UIKit.framework in Frameworks */,
+				D8A6828F1991775C00BD15D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8A682621991775C00BD15D2 = {
+			isa = PBXGroup;
+			children = (
+				D8A682741991775C00BD15D2 /* MansBestFriend2 */,
+				D8A682931991775C00BD15D2 /* MansBestFriend2Tests */,
+				D8A6826D1991775C00BD15D2 /* Frameworks */,
+				D8A6826C1991775C00BD15D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8A6826C1991775C00BD15D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8A6826B1991775C00BD15D2 /* MansBestFriend2.app */,
+				D8A6828C1991775C00BD15D2 /* MansBestFriend2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8A6826D1991775C00BD15D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8A6826E1991775C00BD15D2 /* Foundation.framework */,
+				D8A682701991775C00BD15D2 /* CoreGraphics.framework */,
+				D8A682721991775C00BD15D2 /* UIKit.framework */,
+				D8A6828D1991775C00BD15D2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8A682741991775C00BD15D2 /* MansBestFriend2 */ = {
+			isa = PBXGroup;
+			children = (
+				D8A6827D1991775C00BD15D2 /* JLAppDelegate.h */,
+				D8A6827E1991775C00BD15D2 /* JLAppDelegate.m */,
+				D8A682801991775C00BD15D2 /* Main.storyboard */,
+				D8A682831991775C00BD15D2 /* JLViewController.h */,
+				D8A682841991775C00BD15D2 /* JLViewController.m */,
+				D8A682A319917ABF00BD15D2 /* JLDog.h */,
+				D8A682A419917ABF00BD15D2 /* JLDog.m */,
+				D8A52DED1993CA21008AF48E /* JLPuppy.h */,
+				D8A52DEE1993CA21008AF48E /* JLPuppy.m */,
+				D8A682861991775C00BD15D2 /* Images.xcassets */,
+				D8A682751991775C00BD15D2 /* Supporting Files */,
+			);
+			path = MansBestFriend2;
+			sourceTree = "<group>";
+		};
+		D8A682751991775C00BD15D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D878B1EA19929F4C002F15CF /* Bo.jpg */,
+				D878B1EB19929F4C002F15CF /* BorderCollie.jpg */,
+				D878B1EC19929F4C002F15CF /* ItalianGreyhound.jpg */,
+				D878B1ED19929F4C002F15CF /* JRT.jpg */,
+				D878B1EE19929F4C002F15CF /* St.Bernard.JPG */,
+				D8A682761991775C00BD15D2 /* MansBestFriend2-Info.plist */,
+				D8A682771991775C00BD15D2 /* InfoPlist.strings */,
+				D8A6827A1991775C00BD15D2 /* main.m */,
+				D8A6827C1991775C00BD15D2 /* MansBestFriend2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8A682931991775C00BD15D2 /* MansBestFriend2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D8A682991991775C00BD15D2 /* MansBestFriend2Tests.m */,
+				D8A682941991775C00BD15D2 /* Supporting Files */,
+			);
+			path = MansBestFriend2Tests;
+			sourceTree = "<group>";
+		};
+		D8A682941991775C00BD15D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8A682951991775C00BD15D2 /* MansBestFriend2Tests-Info.plist */,
+				D8A682961991775C00BD15D2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8A6826A1991775C00BD15D2 /* MansBestFriend2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A6829D1991775C00BD15D2 /* Build configuration list for PBXNativeTarget "MansBestFriend2" */;
+			buildPhases = (
+				D8A682671991775C00BD15D2 /* Sources */,
+				D8A682681991775C00BD15D2 /* Frameworks */,
+				D8A682691991775C00BD15D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MansBestFriend2;
+			productName = MansBestFriend2;
+			productReference = D8A6826B1991775C00BD15D2 /* MansBestFriend2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8A6828B1991775C00BD15D2 /* MansBestFriend2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8A682A01991775C00BD15D2 /* Build configuration list for PBXNativeTarget "MansBestFriend2Tests" */;
+			buildPhases = (
+				D8A682881991775C00BD15D2 /* Sources */,
+				D8A682891991775C00BD15D2 /* Frameworks */,
+				D8A6828A1991775C00BD15D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8A682921991775C00BD15D2 /* PBXTargetDependency */,
+			);
+			name = MansBestFriend2Tests;
+			productName = MansBestFriend2Tests;
+			productReference = D8A6828C1991775C00BD15D2 /* MansBestFriend2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8A682631991775C00BD15D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JL;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					D8A6828B1991775C00BD15D2 = {
+						TestTargetID = D8A6826A1991775C00BD15D2;
+					};
+				};
+			};
+			buildConfigurationList = D8A682661991775C00BD15D2 /* Build configuration list for PBXProject "MansBestFriend2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8A682621991775C00BD15D2;
+			productRefGroup = D8A6826C1991775C00BD15D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8A6826A1991775C00BD15D2 /* MansBestFriend2 */,
+				D8A6828B1991775C00BD15D2 /* MansBestFriend2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8A682691991775C00BD15D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D878B1F319929F4C002F15CF /* St.Bernard.JPG in Resources */,
+				D878B1F119929F4C002F15CF /* ItalianGreyhound.jpg in Resources */,
+				D8A682871991775C00BD15D2 /* Images.xcassets in Resources */,
+				D878B1F219929F4C002F15CF /* JRT.jpg in Resources */,
+				D8A682791991775C00BD15D2 /* InfoPlist.strings in Resources */,
+				D878B1F019929F4C002F15CF /* BorderCollie.jpg in Resources */,
+				D878B1EF19929F4C002F15CF /* Bo.jpg in Resources */,
+				D8A682821991775C00BD15D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A6828A1991775C00BD15D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A682981991775C00BD15D2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8A682671991775C00BD15D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A6827F1991775C00BD15D2 /* JLAppDelegate.m in Sources */,
+				D8A682851991775C00BD15D2 /* JLViewController.m in Sources */,
+				D8A682A519917ABF00BD15D2 /* JLDog.m in Sources */,
+				D8A52DEF1993CA21008AF48E /* JLPuppy.m in Sources */,
+				D8A6827B1991775C00BD15D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A682881991775C00BD15D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8A6829A1991775C00BD15D2 /* MansBestFriend2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8A682921991775C00BD15D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8A6826A1991775C00BD15D2 /* MansBestFriend2 */;
+			targetProxy = D8A682911991775C00BD15D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8A682771991775C00BD15D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8A682781991775C00BD15D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8A682801991775C00BD15D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8A682811991775C00BD15D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8A682961991775C00BD15D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8A682971991775C00BD15D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8A6829B1991775C00BD15D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8A6829C1991775C00BD15D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8A6829E1991775C00BD15D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MansBestFriend2/MansBestFriend2-Prefix.pch";
+				INFOPLIST_FILE = "MansBestFriend2/MansBestFriend2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8A6829F1991775C00BD15D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MansBestFriend2/MansBestFriend2-Prefix.pch";
+				INFOPLIST_FILE = "MansBestFriend2/MansBestFriend2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D8A682A11991775C00BD15D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MansBestFriend2.app/MansBestFriend2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MansBestFriend2/MansBestFriend2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MansBestFriend2Tests/MansBestFriend2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D8A682A21991775C00BD15D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MansBestFriend2.app/MansBestFriend2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MansBestFriend2/MansBestFriend2-Prefix.pch";
+				INFOPLIST_FILE = "MansBestFriend2Tests/MansBestFriend2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8A682661991775C00BD15D2 /* Build configuration list for PBXProject "MansBestFriend2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A6829B1991775C00BD15D2 /* Debug */,
+				D8A6829C1991775C00BD15D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A6829D1991775C00BD15D2 /* Build configuration list for PBXNativeTarget "MansBestFriend2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A6829E1991775C00BD15D2 /* Debug */,
+				D8A6829F1991775C00BD15D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8A682A01991775C00BD15D2 /* Build configuration list for PBXNativeTarget "MansBestFriend2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A682A11991775C00BD15D2 /* Debug */,
+				D8A682A21991775C00BD15D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8A682631991775C00BD15D2 /* Project object */;
+}
